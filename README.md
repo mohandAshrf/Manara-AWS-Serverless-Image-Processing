@@ -227,7 +227,7 @@ curl -X GET https://4qynjac488.execute-api.us-east-1.amazonaws.com/dev/get-proce
   --output processed-image.png
 ```
 
-📖 [View Complete API Documentation](./docs/User Guide.md)
+📖 [View Complete API Documentation](./docs/User_Guide.md)
 
 ---
 
@@ -236,7 +236,7 @@ curl -X GET https://4qynjac488.execute-api.us-east-1.amazonaws.com/dev/get-proce
 ### Live Demo
 **API Endpoint:** `https://4qynjac488.execute-api.us-east-1.amazonaws.com/dev`  
 ⚠️ **Note:** API access requires valid API key (time-limited for security)
-<video src="assets/Demo.mp4" controls width="600"></video>
+<video src="./assets/Demo.mp4" controls width="600"></video>
 
 ---
 
@@ -297,4 +297,5 @@ This project is created for educational purposes as part of the Manara Tech AWS 
 
 
 ---
+
 
