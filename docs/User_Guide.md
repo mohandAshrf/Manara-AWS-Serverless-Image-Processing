@@ -1,17 +1,5 @@
 # How to Use - Serverless Image Processing System
 
-## Table of Contents
-1. [Getting Started](#getting-started)
-2. [API Authentication](#api-authentication)
-3. [Uploading Images](#uploading-images)
-4. [Retrieving Image Metadata](#retrieving-image-metadata)
-5. [Downloading Processed Images](#downloading-processed-images)
-6. [Using Different Tools](#using-different-tools)
-7. [Troubleshooting](#troubleshooting)
-8. [Best Practices](#best-practices)
-
----
-
 ## Getting Started
 
 ### Prerequisites
@@ -390,3 +378,4 @@ file your-image.png
 - Increase timeout settings
 
 ---
+
