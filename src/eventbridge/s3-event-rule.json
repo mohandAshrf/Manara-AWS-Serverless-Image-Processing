@@ -1,0 +1,24 @@
+{
+  "AWSTemplateFormatVersion": "2010-09-09",
+  "Description": "CloudFormation template for EventBridge Ruleupload-trigger",
+  "Resources": {
+    "Rule73901731": {
+      "Type": "AWS::Events::Rule",
+      "Properties": {
+        "Name": "upload-trigger",
+        "EventPattern": "{\"source\":[\"aws.s3\"],\"detail-type\":[\"Object Created\"],\"detail\":{\"bucket\":{\"name\":[\"mybucketmohand-ashrf\"]},\"object\":{\"key\":[{\"prefix\":\"uploaded/\"}]}}}",
+        "State": "ENABLED",
+        "Description": "",
+        "EventBusName": "default",
+        "Targets": [{
+          "Id": "Id1169e3eb-fd0c-4e1d-9681-bd9dc88eaf0b",
+          "Arn": {
+            "Fn::Sub": "arn:${AWS::Partition}:states:${AWS::Region}:${AWS::AccountId}:stateMachine:update-image"
+          },
+          "RoleArn": "arn:aws:iam::075120018869:role/service-role/Amazon_EventBridge_Invoke_Step_Functions_637335828"
+        }]
+      }
+    }
+  },
+  "Parameters": {}
+}

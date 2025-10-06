@@ -1,0 +1,16 @@
+{
+  "Comment": "Process uploaded image from S3 and save results",
+  "StartAt": "update-size",
+  "States": {
+    "update-size": {
+      "Type": "Task",
+      "Resource": "arn:aws:lambda:us-east-1:075120018869:function:new-size-image:$LATEST",
+      "Next": "add waterark"
+    },
+    "add waterark": {
+      "Type": "Task",
+      "Resource": "arn:aws:lambda:us-east-1:075120018869:function:add-watermark:$LATEST",
+      "End": true
+    }
+  }
+}
