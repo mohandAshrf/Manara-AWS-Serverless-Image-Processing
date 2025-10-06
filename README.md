@@ -176,10 +176,6 @@ Through this Manara Tech program project, I have learned:
 
 **For 10,000 images/month:** ~$25-35/month
 
-📊 [View Detailed Cost Analysis](./docs/cost-analysis.md)
-
- for ore details visit cost-analysis.md
-
 ---
 
 ## 📖 How to Use
@@ -240,7 +236,7 @@ curl -X GET https://4qynjac488.execute-api.us-east-1.amazonaws.com/dev/get-proce
 ### Live Demo
 **API Endpoint:** `https://4qynjac488.execute-api.us-east-1.amazonaws.com/dev`  
 ⚠️ **Note:** API access requires valid API key (time-limited for security)
-
+<video src="assets/Demo.mp4" controls width="600"></video>
 ---
 
 ## 🔐 Security Features
@@ -289,13 +285,14 @@ curl -X GET https://4qynjac488.execute-api.us-east-1.amazonaws.com/dev/get-proce
 
 **Mohand Asraf**  
 - GitHub: [@mohandasraf](https://github.com/mohandasraf)
-- LinkedIn: [Your LinkedIn Profile]
-- Email: your.email@example.com
+- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/mohand-ashrf/)
+- Email: mohandashrf4@gmail.com
 
 ---
 
 ## 📄 License
 
 This project is created for educational purposes as part of the Manara Tech AWS Solutions Architect - Associate program.
+
 
 ---
